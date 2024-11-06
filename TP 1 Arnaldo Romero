@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1>Bienvenido a la Página Principal</h1>
+    <nav>
+        <ul>
+            <li><a href="pagina1.html">Página 1 - Productos</a></li>
+            <li><a href="pagina2.html">Página 2 - Imágenes</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+#pagina1.html (Página 1 - Tabla de Productos)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1 - Productos</title>
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+    <table border="1">
+        <tr>
+            <th>Nombre del Producto</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>Producto 1</td>
+            <td>$10</td>
+            <td>Descripción del producto 1</td>
+        </tr>
+        <tr>
+            <td>Producto 2</td>
+            <td>$20</td>
+            <td>Descripción del producto 2</td>
+        </tr>
+        <tr>
+            <td>Producto 3</td>
+            <td>$30</td>
+            <td>Descripción del producto 3</td>
+        </tr>
+    </table>
+    <nav>
+        <a href="index.html">Volver a la Página Principal</a>
+    </nav>
+</body>
+</html>
+pagina2.html (Página 2 - Imágenes)
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Imágenes</title>
+</head>
+<body>
+    <h1>Descripción de Imágenes</h1>
+    <img src="imagen1.jpg" alt="Descripción de la imagen 1" width="300">
+    <p>Descripción de la imagen 1</p>
+    
+    <img src="imagen2.jpg" alt="Descripción de la imagen 2" width="300">
+    <p>Descripción de la imagen 2</p>
+    
+    <nav>
+        <a href="index.html">Volver a la Página Principal</a>
+    </nav>
+</body>
+</html>
+
